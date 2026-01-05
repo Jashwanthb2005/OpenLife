@@ -11,46 +11,90 @@ const Card = ({ title, children }) => (
 
 export default function Home() {
   return (
-    <div className="space-y-6">
-      <div className="rounded-2xl border border-emerald-300/30 bg-emerald-300/10 p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Welcome</p>
-        <h1 className="text-3xl font-bold text-white sm:text-4xl">OpenLife (Daily Workflow & Time Management)</h1>
-        <p className="mt-2 text-sm text-slate-200">
-          A beginner-friendly, open-source workspace where you can plan your day, protect focus time, and learn how to build React
-          components alongside the community.
-        </p>
-      </div>
+      <div className="space-y-6">
+          <div className="rounded-2xl border border-emerald-300/30 bg-emerald-300/10 p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">
+                  Welcome
+              </p>
+              <h1 className="text-3xl font-bold text-white sm:text-4xl">
+                  OpenLife (Daily Workflow & Time Management)
+              </h1>
+              <p className="mt-2 text-sm text-slate-200">
+                  A beginner-friendly, open-source workspace where you can plan
+                  your day, protect focus time, and learn how to build React
+                  components alongside the community.
+              </p>
+          </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
-        <Card title="What OpenLife is">
-          OpenLife is a simple dashboard starter for mapping your day. You get clear sections for tasks, a timer, and a daily recap
-          you can extend with your own ideas.
-        </Card>
-        <Card title="Why time awareness matters">
-          Seeing where your time goes helps you stay calm and focused. Even a small timer or checklist can reveal patterns you can
-          improve each week.
-        </Card>
-        <Card title="How beginners can contribute">
-          Start by editing the placeholder components below. Swap the text, add inputs, and try new layouts. Small pull requests are
-          perfect here.
-        </Card>
-      </div>
+          <div className="grid gap-4 md:grid-cols-3">
+              <Card title="What OpenLife is">
+                  OpenLife is a simple dashboard starter for mapping your day.
+                  You get clear sections for tasks, a timer, and a daily recap
+                  you can extend with your own ideas.
+              </Card>
+              <Card title="Why time awareness matters">
+                  Seeing where your time goes helps you stay calm and focused.
+                  Even a small timer or checklist can reveal patterns you can
+                  improve each week.
+              </Card>
+              <Card title="How beginners can contribute">
+                  Start by editing the placeholder components below. Swap the
+                  text, add inputs, and try new layouts. Small pull requests are
+                  perfect here.
+              </Card>
+          </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
-        <Tasks />
-        <Timer />
-        <DailySummary />
-      </div>
+          <div className="grid gap-4 md:grid-cols-3">
+              <Tasks />
+              <Timer />
+              <DailySummary />
+          </div>
 
-      <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
-        <p className="font-semibold text-white">Next steps for beginners</p>
-        <ul className="mt-2 list-disc space-y-1 pl-5">
-          <li>Pick one placeholder above and add a tiny improvement.</li>
-          <li>Use Tailwind classes to style buttons, inputs, or cards.</li>
-          <li>Share your change as a pull request and ask for feedback.</li>
-        </ul>
-        {/* BEGINNER: Add your own quick-start steps or learning resources here */}
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
+              <p className="font-semibold text-white">
+                  Next steps for beginners
+              </p>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                  <li>
+                      Pick one placeholder above and add a tiny improvement.
+                  </li>
+                  <li>
+                      Use Tailwind classes to style buttons, inputs, or cards.
+                  </li>
+                  <li>
+                      Share your change as a pull request and ask for feedback.
+                  </li>
+              </ul>
+              {/* BEGINNER: Add your own quick-start steps or learning resources here */}
+          </div>
+
+          <div className="rounded-2xl border border-emerald-300/20 bg-emerald-300/5 p-5 text-sm text-slate-200">
+              <h2 className="text-lg font-semibold text-emerald-200 mb-4">
+                  How to Contribute
+              </h2>
+              <div className="grid gap-4 sm:grid-cols-3">
+                  <div className="space-y-1">
+                      <p className="font-bold text-white">1. Fork</p>
+                      <p className="text-xs text-slate-400">
+                          Fork this repository to your own GitHub account.
+                      </p>
+                  </div>
+                  <div className="space-y-1">
+                      <p className="font-bold text-white">2. Clone & Build</p>
+                      <p className="text-xs text-slate-400">
+                          Clone it locally and install dependencies to start
+                          coding.
+                      </p>
+                  </div>
+                  <div className="space-y-1">
+                      <p className="font-bold text-white">3. Push & PR</p>
+                      <p className="text-xs text-slate-400">
+                          Apply your changes and open a Pull Request for
+                          feedback!
+                      </p>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
-  )
+  );
 }
