@@ -1,4 +1,5 @@
 import DailySummary from '../components/DailySummary'
+import GlassCard from '../components/GlassCard'
 import Tasks from '../components/Tasks'
 import Timer from '../components/Timer'
 
@@ -51,6 +52,7 @@ export default function Home() {
         </ul>
         {/* BEGINNER: Add your own quick-start steps or learning resources here */}
       </div>
+      
     </div>
   )
 }
