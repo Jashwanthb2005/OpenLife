@@ -1,5 +1,5 @@
-import GlassCard from '../components/GlassCard/GlassCard'
-import Button from '../components/Button/Button'
+import GlassCard from '../../components/GlassCard/GlassCard'
+import Button from '../../components/Button/Button'
 
 const steps = [
   { title: 'Fork the repository', body: 'Create your own copy of OpenLife on GitHub to work safely.' },
