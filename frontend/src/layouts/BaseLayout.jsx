@@ -7,7 +7,7 @@ export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workf
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <Header />
 
-      <main className="flex w-full flex-col gap-8 px-[var(--page-gutter)] py-8">
+      <main className="flex w-full flex-col gap-8 px-(--page-gutter) py-8">
         <div className="space-y-1">
           <h1 className="text-3xl font-bold text-white sm:text-4xl">{title}</h1>
           <p className="text-sm text-slate-300">{subtitle}</p>

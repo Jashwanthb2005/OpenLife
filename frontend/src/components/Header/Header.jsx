@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import Button from './Button'
+import Button from '../Button/Button'
 
 const linkClass =
   'rounded-lg px-3 py-2 text-sm font-semibold text-slate-100 transition hover:text-emerald-200 hover:bg-white/10'
