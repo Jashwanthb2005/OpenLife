@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-white/5 px-4 py-6">
-      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 md:flex-row text-xs text-slate-400">
+    <footer className="border-t border-white/10 bg-white/5 px-[var(--page-gutter)] py-6">
+      <div className="flex w-full flex-col items-center justify-between gap-4 text-xs text-slate-400 md:flex-row">
         
         {/* Left Side: Tech Stack */}
         <div className="flex items-center gap-2">
@@ -15,6 +15,7 @@ export default function Footer() {
           <Link to="/" className="hover:text-white transition-colors">Home</Link>
           <Link to="/about" className="hover:text-white transition-colors">About</Link>
           <Link to="/contribute" className="hover:text-white transition-colors">Contribute</Link>
+          <Link to="/showcase" className="hover:text-white transition-colors">Showcase</Link>
         </nav>
 
         {/* Right Side: Copyright/Status */}

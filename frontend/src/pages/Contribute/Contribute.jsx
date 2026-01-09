@@ -15,7 +15,7 @@ export default function Contribute() {
       <div className="flex flex-col gap-3">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Community</p>
         <h1 className="text-3xl font-bold text-white sm:text-4xl">Contributing to OpenLife</h1>
-        <p className="max-w-2xl text-base text-slate-200/85">
+        <p className="w-full text-base text-slate-200/85">
           OpenLife thrives on clear, welcoming workflows. Follow the steps below, ship improvements, and leave the project better for
           the next contributor.
         </p>

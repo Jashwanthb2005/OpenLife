@@ -1,4 +1,5 @@
-import useStarterTasks from '../hooks/useStarterTasks'
+
+import useStarterTasks from '../../hooks/useStarterTasks'
 
 // Placeholder tasks list that beginners can expand
 export default function Tasks() {
