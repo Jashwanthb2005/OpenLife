@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import OpenLifeLogo from '../../assets/OpenLife_Logo.png';
 
 export default function Footer() {
   return (
@@ -7,6 +8,7 @@ export default function Footer() {
         
         {/* Left Side: Tech Stack */}
         <div className="flex items-center gap-2">
+          <img className="h-10 w-10 object-contain" src={OpenLifeLogo} alt="OpenLife logo" />
           <span>Built with React + Vite + Tailwind</span>
         </div>
 
