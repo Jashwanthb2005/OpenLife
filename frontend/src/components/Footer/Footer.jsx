@@ -3,7 +3,7 @@ import OpenLifeLogo from '../../assets/OpenLife_Logo.png';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-transparent px-[var(--page-gutter)] py-6 backdrop-blur">
+    <footer className="border-t border-white/10 bg-transparent px-(--page-gutter) py-6 backdrop-blur">
       <div className="flex w-full flex-col items-center justify-between gap-4 text-xs text-slate-400 md:flex-row">
         
         {/* Left Side: Tech Stack */}

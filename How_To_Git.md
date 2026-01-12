@@ -86,3 +86,33 @@ git log --oneline --graph --decorate -n 10
 git branch -a
 git fetch --all --prune
 ```
+
+
+
+
+
+
+git add .
+git commit -m "Describe the change"
+
+
+git add "path/to/file1"
+git add "path/to/file2"
+git commit -m "Describe the change"
+
+
+git checkout main
+
+git git branch --show-current
+
+
+git push origin main
+
+
+git fetch origin
+git checkout main
+git pull origin main
+
+ 
+
+
