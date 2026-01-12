@@ -13,6 +13,7 @@ export default function Footer() {
         </div>
 
         {/* Center/Right: Navigation Links */}
+        <div className="flex flex-col items-center gap-2">
         <nav className="flex gap-6">
           <Link to="/" className="hover:text-white transition-colors">Home</Link>
           <Link to="/about" className="hover:text-white transition-colors">About</Link>
@@ -20,6 +21,11 @@ export default function Footer() {
           <Link to="/showcase" className="hover:text-white transition-colors">Showcase</Link>
         </nav>
 
+        <div className="text-center text-[11px] text-slate-500">
+            <p className="uppercase tracking-wide">OpenLife – Open Source Project</p>
+            <p className="text-slate-400">Built by the community</p>
+        </div>
+        </div>
         {/* Right Side: Copyright/Status */}
         <div>
           <span>&copy; {new Date().getFullYear()} OpenLife</span>
